@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+    font-family: arial, sans-serif;
+
+}
+.card {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+.card h1 {
+    color: red;
+}
+.card video {
+    width: 300px;
+    border-radius: 15px;
+}
+button {
+    paint: 12px 25px;
+    margin:5px ;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#yesBtn {
+    background: pink;
+}
+noBtn {
+    background: lightgray;
+}
