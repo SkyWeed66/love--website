@@ -1,14 +1,24 @@
 document.addEventListener("DOMContentLoaded", function () {
-
     const yesBtn = document.getElementById("yesBtn");
     const noBtn = document.getElementById("noBtn");
 
-    yesBtn.onclick = function () {
-        alert("I LOVE YOU TOO! ❤️");
-    };
+    const loveVideo = document.querySelector(".love-video");
+    const gifVideo = document.getElementById("gif-video");
+    
+    yesBtn.onclick = function (){
+        gifVideo.style.display = "none";
 
+        loveVideo.style.display ="block";
+        loveVideo.currentTime = 0;
+        loveVideo.play();
+
+    };
     noBtn.onclick = function () {
-        alert("ARE YOU SURE? 💔");
+        loveVideo.style.display = "none";
+
+        gifVideo.style.display = "block";
+        gifVideo.currentTime = 0;
+        gifVideo.play();
     };
 
 });
