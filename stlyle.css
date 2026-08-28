@@ -22,7 +22,7 @@ body {
     border-radius: 15px;
 }
 button {
-    paint: 12px 25px;
+    padding:12px 25px;
     margin:5px ;
     border-radius: 10px;
     font-size: 18px;
@@ -33,4 +33,12 @@ button {
 }
 noBtn {
     background: lightgray;
+}
+/* sembuyikankan kedua video saat awal */
+.love-video,
+.gif-video {
+            display: none;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 15px;
 }
